@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+    <persistence-unit name="default">
+        <class>org.mucnjakf.model.User</class>
+        <class>org.mucnjakf.model.Category</class>
+        <class>org.mucnjakf.model.Product</class>
+        <class>org.mucnjakf.model.UserLoginHistory</class>
+        <class>org.mucnjakf.model.Invoice</class>
+        <class>org.mucnjakf.model.AdminPin</class>
+
+        <properties>
+            <property name="toplink.jdbc.url"
+                      value="jdbc:sqlserver://oneshop.database.windows.net:1433;database=OneShopDB;"/>
+            <property name="toplink.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+            <property name="hibernate.connection.url"
+                      value="jdbc:sqlserver://oneshop.database.windows.net:1433;database=OneShopDB;"/>
+            <property name="hibernate.connection.driver_class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+            <property name="openjpa.ConnectionURL"
+                      value="jdbc:sqlserver://oneshop.database.windows.net:1433;database=OneShopDB;"/>
+            <property name="openjpa.ConnectionDriverName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+            <property name="eclipselink.jdbc.url"
+                      value="jdbc:sqlserver://oneshop.database.windows.net:1433;database=OneShopDB;"/>
+            <property name="eclipselink.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+            <property name="jakarta.persistence.jdbc.user" value="OneShopAdmin123"/>
+            <property name="jakarta.persistence.jdbc.password" value="OneShopPassword123"/>
+        </properties>
+    </persistence-unit>
+</persistence>
