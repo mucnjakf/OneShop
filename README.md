@@ -11,9 +11,9 @@ OneShop is a web shop application that seamlessly connects users and merchants, 
 
 ### **Tech Stack**
 - Java 11 EE
-- Jakarta Servlet 5
+- Jakarta Servle
 - Hibernate
-- MSSQL Java Database Connectivity 11
+- MSSQL Java Database Connectivity
 - PayPal REST API
 - GlassFish
 - Maven
