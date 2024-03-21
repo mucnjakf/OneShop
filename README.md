@@ -1,4 +1,4 @@
-# <img src="oneshop.png" width="25"/> OneShop
+# <img src="oneshop.svg" width="25"/> OneShop
 
 ### **👁️ Overview**
 Web Shop Web Application - 2021.
