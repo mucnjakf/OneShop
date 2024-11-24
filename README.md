@@ -11,7 +11,7 @@ Web Shop Web Application - 2021.
 
 ### **⚙️ Tech Stack**
 - Java 11 EE
-- Jakarta Servle
+- Jakarta Servlet
 - Hibernate
 - MSSQL Java Database Connectivity
 - PayPal REST API
